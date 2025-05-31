@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_SEEED_XIAO_NRF52840_SENSE
+    bool "Seeed XIAO nRF52840 Sense"
+    depends on SOC_NRF52840
+

@@ -1,0 +1,8 @@
+/dts-v1/;
+#include <nordic/nrf52840.dtsi>
+#include "seeed_xiao_nrf52840_common.dtsi"
+
+/ {
+    model = "Seeed XIAO nRF52840 Sense";
+    compatible = "seeed,xiao-nrf52840-sense";
+};

@@ -206,8 +206,8 @@
             bindings = <
                             &kp Q  &kp W                  &kp E            &kp R                    &kp T               &kp Y              &kp U                     &kp I             &kp O                   &kp P
                             &kp A  &mt_shift_left LALT S  &mt_left LGUI D  &mt_shift_left LSHIFT F  &mt_left LCTRL G    &mt_right RCTRL H  &mt_shift_right LSHIFT J  &mt_right LGUI K  &mt_shift_right LALT L  &kp SEMICOLON
-&mt_all LEFT_CONTROL GRAVE  &kp Z  &kp X                  &kp C            &kp V                    &kp B               &kp N              &kp M                     &kp COMMA         &kp DOT                 &kp FSLH       &mt_all RCTRL TILDE
-                                                          &kp ESCAPE       &lt NAV TILDE            &kp SPACE           &kp ENTER          &lt SYM BACKSPACE         &kp DELETE
+&mt_all LEFT_CONTROL GRAVE  &kp Z  &kp X                  &kp C            &kp V                    &kp B               &kp N              &kp M                     &kp COMMA         &kp DOT                 &kp FSLH       &mt_all RCTRL BACKSPACE
+                                                          &kp ESCAPE       &lt NAV GRAVE            &kp SPACE           &kp ENTER          &lt SYM TILDE             &kp DELETE
             >;
         };
 
@@ -230,10 +230,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp GRAVE  &kp UNDER       &kp UP          &kp PLUS         &kp LBRC    &kp RBRC    &kp N7        &kp N8        &kp N9        &kp EQUAL
-           &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LBKT    &kp RBKT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
-&kp TILDE  &trans     &kp PG_UP       &kp LG(DOWN)    &kp PG_DN        &kp LPAR    &kp RPAR    &kp NUMBER_1  &kp N2        &kp N3        &kp PIPE   &trans
-                                      &trans          &trans           &trans      &kp PERIOD  &kp N0        &kp KP_COMMA
+          &kp GRAVE  &kp UNDER       &kp UP          &kp PLUS         &kp LBRC    &kp RBRC    &kp N7        &kp N8        &kp N9        &kp EQUAL
+          &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LBKT    &kp RBKT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
+&kp HOME  &trans     &kp PG_UP       &kp LG(DOWN)    &kp PG_DN        &kp LPAR    &kp RPAR    &kp NUMBER_1  &kp N2        &kp N3        &kp PIPE   &kp END
+                                     &trans          &trans           &trans      &kp PERIOD  &kp N0        &kp KP_COMMA
             >;
         };
 
